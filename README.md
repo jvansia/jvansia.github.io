@@ -2,7 +2,7 @@
 
     bundle install
     bundle exec jekyll serve
-
+ jekyll serve --host $IP --port $PORT --baseurl
 ## Publish to Github Pages
 
     JEKYLL_ENV=production bundle exec rake site:publish
